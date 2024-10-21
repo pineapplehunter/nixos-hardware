@@ -275,6 +275,7 @@
         milkv-pioneer = import ./milkv/pioneer;
         minisforum-v3 = import ./minisforum/v3;
         morefine-m600 = import ./morefine/m600;
+        mouse-daiv-z4-i7i01sr-a = import ./mouse/daiv/z4-i7i01sr-a;
         msi-b350-tomahawk = import ./msi/b350-tomahawk;
         msi-b550-a-pro = import ./msi/b550-a-pro;
         msi-gs60 = import ./msi/gs60;
