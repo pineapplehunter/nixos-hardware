@@ -9,5 +9,9 @@
 
   hardware.trackpoint.device = "TPPS/2 Synaptics TrackPoint";
 
-  services.thermald.enable = lib.mkDefault true;
+  services = {
+    fprintd.enable = lib.mkDefault true;
+    fwupd.enable = lib.mkDefault true;
+    thermald.enable = lib.mkDefault true;
+  };
 }
