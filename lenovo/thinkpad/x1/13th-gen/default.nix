@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ../.
     ../../../../common/pc/ssd
     ../../../../common/cpu/intel/lunar-lake
   ];
